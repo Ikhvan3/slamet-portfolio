@@ -30,15 +30,15 @@ export default function Projects() {
               className='bg-slate-900 border border-slate-800 rounded-3xl overflow-hidden group'
             >
               {/* IMAGE */}
-              <div className='overflow-hidden'>
-                <Image
-                  src={project.image}
-                  alt={project.title}
-                  width={700}
-                  height={400}
-                  className='w-full h-64 object-cover group-hover:scale-105 transition duration-500'
-                />
-              </div>
+              <div className='bg-slate-950 flex items-center justify-center p-4'>
+  <Image
+    src={project.image}
+    alt={project.title}
+    width={700}
+    height={700}
+    className='w-auto h-auto max-h-150 object-contain group-hover:scale-105 transition duration-500'
+  />
+</div>
 
               {/* CONTENT */}
               <div className='p-8'>

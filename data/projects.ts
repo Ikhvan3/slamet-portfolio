@@ -1,7 +1,11 @@
 export const projects = [
   {
     title: 'EngVenture – English Learning App',
-    image: '/projects/engventure.png',
+    images: [
+  '/projects/engventure-1.png',
+  '/projects/engventure-2.png',
+  '/projects/engventure-3.png',
+],
     description:
       'Mobile-based English learning application with gamification, leaderboard, TOEFL/IELTS practice, community features, and REST API integration.',
     tech: [
@@ -18,7 +22,11 @@ export const projects = [
   },
   {
     title: 'VeggieFresh App',
-    image: '/projects/veggiefresh.png',
+    images: [
+  '/projects/veggiefresh-1.png',
+  '/projects/veggiefresh-2.png',
+  '/projects/veggiefresh-3.png',
+],
     description:
       'Vegetable e-commerce application integrated with Midtrans payment gateway and Gemini AI.',
     tech: ['Flutter', 'Laravel', 'Midtrans', 'Gemini AI'],
@@ -27,7 +35,11 @@ export const projects = [
   },
   {
     title: 'Bunch Sneakers App',
-    image: '/projects/bunchsneakers.png',
+    images: [
+    '/projects/bunchsneakers-1.png',
+    '/projects/bunchsneakers-2.png',
+    '/projects/bunchsneakers-3.png',
+  ],
     description:
       'Mobile sneaker marketplace with wishlist, product catalog, and shopping cart.',
     tech: ['Flutter', 'Firebase'],
@@ -37,6 +49,11 @@ export const projects = [
   {
     title: 'MoneyTracker App',
     image: '/projects/moneytracker.png',
+    images: [
+    '/projects/moneytracker-1.png',
+    '/projects/moneytracker-2.png',
+    '/projects/moneytracker-3.png',
+  ],
     description:
       'Financial tracking application with statistics and expense management.',
     tech: ['Flutter', 'Firebase'],
@@ -45,7 +62,7 @@ export const projects = [
   },
   {
     title: 'News App',
-    image: '/projects/newsapp.png',
+    images: ['/projects/newsapp.png',],
     description:
       'News application using NewsAPI with Kotlin and Android architecture.',
     tech: ['Kotlin', 'REST API'],

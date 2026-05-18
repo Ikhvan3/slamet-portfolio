@@ -27,17 +27,25 @@ export default function Projects() {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
               whileHover={{ y: -10 }}
+              
               className='bg-slate-900 border border-slate-800 rounded-3xl overflow-hidden group'
             >
               {/* IMAGE */}
-              <div className='bg-slate-950 flex items-center justify-center p-4'>
-  <Image
-    src={project.image}
-    alt={project.title}
-    width={700}
-    height={700}
-    className='w-auto h-auto max-h-150 object-contain group-hover:scale-105 transition duration-500'
-  />
+              <div className='grid grid-cols-3 gap-3 p-4 bg-slate-950'>
+  {project.images.map((img, i) => (
+    <div
+      key={i}
+      className='rounded-2xl overflow-hidden border border-slate-800'
+    >
+      <Image
+        src={img}
+        alt={project.title}
+        width={300}
+        height={600}
+        className='w-full h-auto object-contain hover:scale-105 transition duration-300'
+      />
+    </div>
+  ))}
 </div>
 
               {/* CONTENT */}

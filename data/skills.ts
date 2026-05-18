@@ -1,0 +1,18 @@
+export const skills = [
+  'Flutter',
+  'Dart',
+  'Kotlin',
+  'Firebase',
+  'Supabase',
+  'Laravel',
+  'REST API',
+  'PostgreSQL',
+  'MySQL',
+  'Git',
+  'GitHub',
+  'Figma',
+  'Android Studio',
+  'VS Code',
+  'Python',
+  'UI/UX',
+];

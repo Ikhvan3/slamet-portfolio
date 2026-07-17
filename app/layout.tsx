@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Slamet Ikhvan | Software Developer",
   description:
-    "Software Developer portfolio focused on Mobile & Web Development.",
+    "Portfolio Software Developer dengan fokus Mobile & Web Development.",
 };
 
 export default function RootLayout({
@@ -13,7 +13,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="h-full antialiased">
+    <html lang="id" className="h-full antialiased">
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );

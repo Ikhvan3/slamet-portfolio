@@ -22,10 +22,10 @@ export const projects: Project[] = [
       '/projects/engventure-3.png',
     ],
     description:
-      'Mobile-based English learning application with gamification, leaderboard, TOEFL/IELTS practice, community features, and REST API integration.',
+      'Aplikasi pembelajaran bahasa Inggris berbasis mobile dengan gamification, leaderboard, latihan TOEFL/IELTS, fitur komunitas, dan integrasi REST API.',
     tech: ['Flutter', 'Dart', 'Firebase', 'REST API', 'PostgreSQL', 'Golang'],
     github: 'https://github.com/Ikhvan3/Pembelajaran-Bahasa-Inggris-Apps.git',
-    badge: 'SINTA 3 Publication',
+    badge: 'Publikasi SINTA 3',
     featured: true,
   },
   {
@@ -37,10 +37,10 @@ export const projects: Project[] = [
       '/projects/veggiefresh-3.png',
     ],
     description:
-      'Vegetable e-commerce application integrated with Midtrans payment gateway and Gemini AI.',
+      'Aplikasi e-commerce sayuran yang terintegrasi dengan payment gateway Midtrans dan fitur Gemini AI.',
     tech: ['Flutter', 'Laravel', 'Midtrans', 'Gemini AI'],
     github: 'https://github.com/Ikhvan3/shamo_app.git',
-    badge: 'AI Integration',
+    badge: 'Integrasi AI',
     featured: true,
   },
   {
@@ -52,7 +52,7 @@ export const projects: Project[] = [
       '/projects/bunchsneakers-3.png',
     ],
     description:
-      'Mobile sneaker marketplace with wishlist, product catalog, and shopping cart.',
+      'Aplikasi marketplace sneakers berbasis mobile dengan wishlist, katalog produk, dan keranjang belanja.',
     tech: ['Flutter', 'Firebase'],
     github: 'https://github.com/Ikhvan3/bunchsneakers_app.git',
     badge: 'Mobile Commerce',
@@ -66,17 +66,17 @@ export const projects: Project[] = [
       '/projects/moneytracker-3.png',
     ],
     description:
-      'Financial tracking application with statistics and expense management.',
+      'Aplikasi pencatatan keuangan dengan fitur statistik dan pengelolaan pengeluaran.',
     tech: ['Flutter', 'Firebase'],
     github: 'https://github.com/Ikhvan3/MoneyTracker_App.git',
-    badge: 'Finance App',
+    badge: 'Aplikasi Keuangan',
   },
   {
     title: 'News App',
     category: 'Mobile',
     images: ['/projects/newsapp.png'],
     description:
-      'News application using NewsAPI with Kotlin and Android architecture.',
+      'Aplikasi berita menggunakan NewsAPI dengan Kotlin dan arsitektur Android.',
     tech: ['Kotlin', 'REST API'],
     github: 'https://github.com/Ikhvan3/submission_rakamin_kotlin.git',
     badge: 'Android App',
@@ -86,10 +86,10 @@ export const projects: Project[] = [
     category: 'Web',
     images: ['/projects/web/veggie-1.png'],
     description:
-      'Admin management website for vegetable sales integrated with Midtrans payment gateway and responsive dashboard system.',
+      'Website admin untuk pengelolaan penjualan sayuran yang terintegrasi dengan payment gateway Midtrans dan dashboard responsif.',
     tech: ['Laravel', 'PHP', 'MySQL', 'Midtrans', 'Bootstrap'],
     github: 'https://github.com/Ikhvan3/shamo_app.git',
-    badge: 'E-Commerce System',
+    badge: 'Sistem E-Commerce',
     featured: true,
   },
   {
@@ -97,10 +97,10 @@ export const projects: Project[] = [
     category: 'Web',
     images: ['/projects/web/akademik-1.png', '/projects/web/akademik-2.png'],
     description:
-      'Responsive academic information system with CRUD management and role authentication system.',
+      'Sistem informasi akademik responsif dengan fitur CRUD management dan role authentication.',
     tech: ['PHP', 'MySQL', 'Bootstrap', 'JavaScript'],
     github: 'https://github.com/Ikhvan3/web-perkuliahan-crud-mysql.git',
-    badge: 'Management System',
+    badge: 'Sistem Manajemen',
     featured: true,
   },
   {
@@ -108,10 +108,10 @@ export const projects: Project[] = [
     category: 'Web',
     images: ['/projects/web/sound-1.png', '/projects/web/sound-2.png'],
     description:
-      'Rental management website for sound system booking with admin dashboard and responsive user interface.',
+      'Website pengelolaan penyewaan sound system dengan fitur booking, admin dashboard, dan antarmuka responsif.',
     tech: ['Laravel', 'PHP', 'MySQL', 'Bootstrap'],
     github: 'https://github.com/Ikhvan3',
-    badge: 'Rental Platform',
+    badge: 'Platform Rental',
     featured: true,
   },
 ];

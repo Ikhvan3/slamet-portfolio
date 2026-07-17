@@ -4,24 +4,32 @@ export default function Skills() {
   return (
     <section id='skills' className='py-24 md:py-28'>
       <div className='container-custom'>
-        <p className='mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-sky-300'>
-          Technical Stack
+        <p className='mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-[var(--secondary)]'>
+          KEMAMPUAN
         </p>
-        <h2 className='mb-12 text-4xl font-bold text-white md:text-5xl'>Skills</h2>
+        <h2 className='mb-5 text-4xl font-bold text-[var(--text-primary)] md:text-5xl'>
+          Keahlian
+        </h2>
+        <p className='mb-12 max-w-3xl leading-7 text-[var(--text-secondary)]'>
+          Tech Stack yang saya gunakan untuk membangun aplikasi mobile, website,
+          integrasi Backend, dan kolaborasi pengembangan.
+        </p>
 
         <div className='grid gap-5 md:grid-cols-2'>
           {skillGroups.map((group) => (
             <div
               key={group.title}
-              className='rounded-2xl border border-slate-800 bg-slate-900/70 p-6 shadow-lg shadow-slate-950/20'
+              className='rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-6 transition hover:border-[var(--border-hover)]'
             >
-              <h3 className='text-xl font-semibold text-white'>{group.title}</h3>
+              <h3 className='text-xl font-semibold text-[var(--text-primary)]'>
+                {group.title}
+              </h3>
 
               <div className='mt-5 flex flex-wrap gap-3'>
                 {group.skills.map((skill) => (
                   <span
                     key={skill}
-                    className='rounded-full border border-slate-700 bg-slate-950/70 px-4 py-2 text-sm text-slate-300 transition hover:border-sky-400 hover:text-sky-200'
+                    className='rounded-full border border-[var(--border)] bg-[var(--surface-elevated)] px-4 py-2 text-sm text-[var(--text-secondary)] transition hover:border-[var(--primary-dark)] hover:text-[var(--text-primary)]'
                   >
                     {skill}
                   </span>

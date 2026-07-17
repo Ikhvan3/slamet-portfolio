@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
-    <footer className='border-t border-slate-800 py-8 text-center text-sm text-slate-500'>
-      <p>Copyright 2026 Slamet Ikhvan Nurhana Rifki.</p>
+    <footer className='border-t border-[var(--border)] py-8 text-center text-sm text-[var(--text-muted)]'>
+      <p>Dibuat dengan Next.js dan dirancang oleh Slamet Ikhvan.</p>
     </footer>
   );
 }

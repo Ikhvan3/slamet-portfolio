@@ -55,7 +55,7 @@ export const certificates: CertificateItem[] = [
     title: 'TOEFL Certification',
     issuer: 'TOEFL',
     image: {
-      src: '/sertif/sertitoefl.jpg',
+      src: '/sertif/sertitoefl.jpeg',
       alt: 'Sertifikat TOEFL',
       caption: 'Sertifikat TOEFL',
     },

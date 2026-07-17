@@ -64,10 +64,11 @@ export const certificates: CertificateItem[] = [
     id: 'bnsp-data-scientist',
     title: 'BNSP Data Scientist Certification',
     issuer: 'BNSP',
+    image: {
+      src: '/sertif/sertitbnsp.jpg',
+      alt: 'Sertifikat BNSP Data Scientist',
+      caption: 'Sertifikat BNSP Data Scientist',
+    },
   },
-  {
-    id: 'bnsp-network-administrator',
-    title: 'BNSP Network Administrator',
-    issuer: 'BNSP',
-  },
+  
 ];

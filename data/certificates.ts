@@ -55,7 +55,7 @@ export const certificates: CertificateItem[] = [
     title: 'TOEFL Certification',
     issuer: 'TOEFL',
     image: {
-      src: '/sertif/sertitoefl.jpeg',
+      src: '/sertif/sertitoefl.jpg',
       alt: 'Sertifikat TOEFL',
       caption: 'Sertifikat TOEFL',
     },
@@ -65,7 +65,7 @@ export const certificates: CertificateItem[] = [
     title: 'BNSP Data Scientist Certification',
     issuer: 'BNSP',
     image: {
-      src: '/sertif/sertitbnsp.jpg',
+      src: '/sertif/sertitbnsp.jpeg',
       alt: 'Sertifikat BNSP Data Scientist',
       caption: 'Sertifikat BNSP Data Scientist',
     },

@@ -19,7 +19,7 @@ export default function Hero() {
           </p>
 
           <h1 className='text-5xl font-bold leading-tight text-[var(--text-primary)] md:text-7xl'>
-            Slamet Ikhvan
+            Slamet Ikhvan Nurhana Rifki
           </h1>
           <h2 className='mt-5 text-2xl font-semibold text-[var(--text-primary)] md:text-3xl'>
             Software Developer
@@ -73,7 +73,7 @@ export default function Hero() {
 
             <Image
               src='/profile.png'
-              alt='Potret Slamet Ikhvan'
+              alt='Potret Slamet Ikhvan Nurhana Rifki'
               width={380}
               height={380}
               preload

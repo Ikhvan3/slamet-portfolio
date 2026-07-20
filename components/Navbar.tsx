@@ -22,7 +22,7 @@ export default function Navbar() {
           href='#'
           className='text-lg font-bold text-[var(--primary)] transition hover:text-[var(--text-primary)] focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--primary)]'
         >
-          Slamet.dev
+          Ikhvan.dev
         </a>
 
         <div className='hidden items-center gap-7 text-sm text-[var(--text-secondary)] md:flex'>

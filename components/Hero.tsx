@@ -18,10 +18,10 @@ export default function Hero() {
             Halo, saya
           </p>
 
-          <h1 className='text-5xl font-bold leading-tight text-[var(--text-primary)] md:text-7xl'>
+          <h1 className='text-5xl font-bold leading-tight text-[var(--text-primary)] md:text-4xl'>
             Slamet Ikhvan Nurhana Rifki
           </h1>
-          <h2 className='mt-5 text-2xl font-semibold text-[var(--text-primary)] md:text-3xl'>
+          <h2 className='mt-5 text-2xl font-semibold text-[var(--text-primary)] md:text-2xl'>
             Software Developer
           </h2>
           <p className='mt-2 text-lg text-[var(--primary)]'>

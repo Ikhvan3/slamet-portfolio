@@ -17,6 +17,39 @@ export type Experience = {
 
 export const experiences: Experience[] = [
   {
+    id: 'ptpn1-reg3-ti',
+    company: 'PT Perkebunan Nusantara 1 Regional 3',
+    organization: 'Teknologi Informasi',
+    role: 'Teknologi Informasi Intern',
+    employmentType: 'Magang',
+    period: 'Juli 2026 - Oktober 2026',
+    duration: '4 bulan',
+    location: 'Semarang, Indonesia',
+    workType: 'Di lokasi',
+    descriptions: [
+      'Membantu melakukan maintenance jaringan dan hardware.',
+      'Membantu menyampaikan solusi dan troubleshoot dari permasalahan IT.',
+      'Melakukan pengujian terhadap update software atau perangkat yang baru.',
+      'Berperan membantu pelaksanaan event/kegiatan internal TI Regional 3.',
+    ],
+    skills: [
+      'Maintenance Jaringan',
+      'Hardware',
+      'Troubleshooting',
+      'Software Testing',
+      'IT Support',
+      'Kolaborasi Tim',
+    ],
+    images: [
+      {
+        src: '/intern/TI_PTPN1REG3.jpeg',
+        alt: 'Dokumentasi kegiatan magang Teknologi Informasi di PT Perkebunan Nusantara 1 Regional 3 Semarang',
+        caption:
+          'Dokumentasi kegiatan magang TI di PT Perkebunan Nusantara 1 Regional 3',
+      },
+    ],
+  },
+  {
     id: 'bikdk-system-analyst',
     company: 'Balai Industri Kreatif Digital dan Kemasan',
     organization: 'Dinas Perindustrian dan Perdagangan',
